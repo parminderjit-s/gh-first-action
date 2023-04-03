@@ -5,7 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Greeting
-        run: echo "Hello Justin"
+        run: |
+          echo "Hello Justin"
+          echo "Trying this pipe feature"
+          mkdir hello
       - name: Print Goodbye
         run: echo "Done, thank you"
         
